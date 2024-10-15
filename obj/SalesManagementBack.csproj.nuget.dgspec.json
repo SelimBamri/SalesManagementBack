@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\SalesManagementBack\\SalesManagementBack.csproj": {}
+    "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\SalesManagementBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\SalesManagementBack\\SalesManagementBack.csproj": {
+    "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\SalesManagementBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\SalesManagementBack\\SalesManagementBack.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\SalesManagementBack.csproj",
         "projectName": "SalesManagementBack",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\SalesManagementBack\\SalesManagementBack.csproj",
+        "projectPath": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\SalesManagementBack.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\SalesManagementBack\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
