@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using SalesManagementBack.DTO.Requests;
 using SalesManagementBack.DTO.Responses;
 using SalesManagementBack.Entities;
+using SalesManagementBack.JwtFeatures;
 
 namespace SalesManagementBack.Controllers
 {
@@ -12,12 +13,14 @@ namespace SalesManagementBack.Controllers
     public class UserController : ControllerBase
     {
         private readonly UserManager<User> _userManager;
-        public UserController(UserManager<User> userManager)
+        private readonly JwtHandler _jwtHandler;
+        public UserController(UserManager<User> userManager, JwtHandler jwtHandler)
         {
             this._userManager = userManager;
+            this._jwtHandler = jwtHandler;
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<IActionResult> RegisterUser([FromBody] UserForRegistration input)
         {
             if (input == null)
@@ -42,6 +45,18 @@ namespace SalesManagementBack.Controllers
                     ;
             }
             return StatusCode(201);
+        }
+
+        [HttpPost("authenticate")]
+        public async Task<IActionResult> AuthenticateUser([FromBody] UserForAuthentication input)
+        {
+            var user = await _userManager.FindByEmailAsync(input.Email!);
+            if (user == null || !await _userManager.CheckPasswordAsync(user, input.Password!))
+            {
+                return Unauthorized(new AuthenticationResponse { ErrorMessage = "Invalid authentication credentials." });
+            }
+            var token = _jwtHandler.CreateToken(user);
+            return Ok(new AuthenticationResponse { IsAuthenticated = true, Token = token });
         }
     }
 }
