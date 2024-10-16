@@ -1,10 +1,14 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using SalesManagementBack.DTO.Requests;
 using SalesManagementBack.DTO.Responses;
 using SalesManagementBack.Entities;
 using SalesManagementBack.JwtFeatures;
+using System.Security.Claims;
 
 namespace SalesManagementBack.Controllers
 {
@@ -57,6 +61,103 @@ namespace SalesManagementBack.Controllers
             }
             var token = _jwtHandler.CreateToken(user);
             return Ok(new AuthenticationResponse { IsAuthenticated = true, Token = token });
+        }
+
+        [HttpDelete]
+        [Authorize]
+        public async Task<IActionResult> DeleteMyAccount()
+        {
+            var user = await _userManager.FindByEmailAsync(User.FindFirst(ClaimTypes.Name)!.Value);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            await _userManager.DeleteAsync(user);
+            return Ok(new
+            {
+                Message = "ok"
+            });
+        }
+
+        [HttpGet]
+        [Authorize]
+        public async Task<IActionResult> GetAuthenticatedUser()
+        {
+            var user = await _userManager.FindByEmailAsync(User.FindFirst(ClaimTypes.Name)!.Value);
+
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            var resp = new MyProfileResponse
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                ProfilePhoto = user.ProfilePhoto,
+                Email = user.Email,
+                Position = user.Position,
+            };
+            return Ok(resp);
+        }
+
+        [HttpPut]
+        [Authorize]
+        public async Task<IActionResult> UpdateMyProfile(ProfileUpdateRequest input)
+        {
+            var user = await _userManager.FindByEmailAsync(User.FindFirst(ClaimTypes.Name)!.Value);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            if (input.FirstName != null)
+            {
+                user.FirstName = input.FirstName;
+            }
+            if (input.LastName != null)
+            {
+                user.LastName = input.LastName;
+            }
+            if (input.Position != null)
+            {
+                user.Position = input.Position;
+            }
+            if (input.Email != null)
+            {
+                user.Email = input.Email;
+            }
+            if (input.ProfilePhoto != null)
+            {
+                string base64Data = input.ProfilePhoto.Substring(input.ProfilePhoto.IndexOf(',') + 1);
+                user.ProfilePhoto = Convert.FromBase64String(base64Data);
+            }
+            var result = await _userManager.UpdateAsync(user);
+            if (!result.Succeeded)
+            {
+                var errors = result.Errors.Select(e => e.Description);
+                return BadRequest(new RegistrationResponse { Errors = errors });
+            }
+            var token = _jwtHandler.CreateToken(user);
+            return Ok(new { Token = token });
+        }
+
+        [HttpPut]
+        [Route("password")]
+        [Authorize]
+        public async Task<IActionResult> ChangePassword(PasswordEditRequest input)
+        {
+            var user = await _userManager.FindByEmailAsync(User.FindFirst(ClaimTypes.Name)!.Value);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            var passwordChangeResult = await _userManager.ChangePasswordAsync(user, input.CurrentPassword, input.NewPassword);
+            if (!passwordChangeResult.Succeeded)
+            {
+                var errors = passwordChangeResult.Errors.Select(e => e.Description);
+                return BadRequest(new { Errors = errors });
+            }
+            var token = _jwtHandler.CreateToken(user);
+            return Ok(new { Token = token });
         }
     }
 }
