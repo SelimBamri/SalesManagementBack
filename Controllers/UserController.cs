@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using SalesManagementBack.DTO.Requests;
 using SalesManagementBack.DTO.Responses;
 using SalesManagementBack.Entities;
-using SalesManagementBack.JwtFeatures;
+using SalesManagementBack.JwtFeatures;  
 using System.Security.Claims;
 
 namespace SalesManagementBack.Controllers

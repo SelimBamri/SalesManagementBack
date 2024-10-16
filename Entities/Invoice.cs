@@ -1,9 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SalesManagementBack.Entities
 {
     public class Invoice
     {
+        [Key]
         public int Id { get; set; }
         public int UnitPrice { get; set; }
         public int NumberOfUnits { get; set; }
