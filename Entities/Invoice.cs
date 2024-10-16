@@ -8,7 +8,8 @@ namespace SalesManagementBack.Entities
         [Key]
         public int Id { get; set; }
         public int UnitPrice { get; set; }
-        public int NumberOfUnits { get; set; }
+        public int NumberOfUnits { get; set; }  
+        public required DateTime IssueDate { get; set; }
         public int ClientFk { get; set; }
         [ForeignKey("ClientFk")]
         public required virtual Client Client { get; set; }

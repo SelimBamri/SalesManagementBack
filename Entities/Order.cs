@@ -9,6 +9,7 @@ namespace SalesManagementBack.Entities
         public int Id { get; set; }
         public int UnitPrice { get; set; }
         public int NumberOfUnits { get; set; }
+        public required DateTime IssueDate { get; set; }
         public int SupplierFk { get; set; }
         [ForeignKey("SupplierFk")]
         public required virtual Supplier Supplier { get; set; }

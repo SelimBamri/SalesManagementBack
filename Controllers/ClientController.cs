@@ -84,6 +84,7 @@ namespace SalesManagementBack.Controllers
                 .Include(c => c.Invoices)
                 .Select(c => new ActorResponse
                 {
+                    Id = c.Id,
                     Name = c.Name,
                     NumberOfExchanges = c.Invoices.Count(),
                     ExchangesSize = c.Invoices.Sum(i => i.UnitPrice * i.NumberOfUnits)
