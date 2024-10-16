@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Migrations\\20241015152146_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241015152146_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\dto\\requests\\userforregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:dto\\requests\\userforregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\dto\\responses\\registrationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:dto\\responses\\registrationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,6 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\migrations\\20241015152146_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:migrations\\20241015152146_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,11 +72,11 @@
         },
         {
           "DockedHeight": 24,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Invoice.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Invoice.cs",
               "RelativeDocumentMoniker": "Entities\\Invoice.cs",
@@ -73,12 +85,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T14:10:13.313Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -87,21 +98,7 @@
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-15T15:14:53.136Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241015152146_initial.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Migrations\\20241015152146_initial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241015152146_initial.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Migrations\\20241015152146_initial.cs",
-              "RelativeToolTip": "Migrations\\20241015152146_initial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T15:21:46.99Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -109,7 +106,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T15:28:54.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Responses\\RegistrationResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\Responses\\RegistrationResponse.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Responses\\RegistrationResponse.cs",
+              "RelativeToolTip": "DTO\\Responses\\RegistrationResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T15:27:34.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserForRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\UserForRegistration.cs",
+              "RelativeDocumentMoniker": "DTO\\Requests\\UserForRegistration.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\UserForRegistration.cs",
+              "RelativeToolTip": "DTO\\Requests\\UserForRegistration.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T15:24:51.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20241015152146_initial.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Migrations\\20241015152146_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241015152146_initial.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Migrations\\20241015152146_initial.cs",
+              "RelativeToolTip": "Migrations\\20241015152146_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T15:21:46.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "Entities\\Order.cs",
@@ -117,12 +163,11 @@
               "RelativeToolTip": "Entities\\Order.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAmwAgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:06:09.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T14:06:09.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Supplier.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Supplier.cs",
               "RelativeDocumentMoniker": "Entities\\Supplier.cs",
@@ -130,12 +175,11 @@
               "RelativeToolTip": "Entities\\Supplier.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:03:24.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T14:03:24.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Entities\\Product.cs",
@@ -143,12 +187,11 @@
               "RelativeToolTip": "Entities\\Product.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAYwA0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:00:31.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T14:00:31.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Entities\\User.cs",
@@ -156,12 +199,11 @@
               "RelativeToolTip": "Entities\\User.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAswAgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T13:19:49.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T13:19:49.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -169,12 +211,11 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T13:15:31.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T13:15:31.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Client.cs",
               "RelativeDocumentMoniker": "Entities\\Client.cs",
@@ -182,12 +223,11 @@
               "RelativeToolTip": "Entities\\Client.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:05:14.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T14:05:14.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -195,8 +235,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T13:17:12.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T13:17:12.301Z"
             }
           ]
         }
