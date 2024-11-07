@@ -37,9 +37,23 @@ builder.Services.AddAuthentication(opts =>
 builder.Services.AddSingleton<JwtHandler>();
 builder.Services.AddControllers();
 
+builder.Services.AddCors(opts =>
+{
+    opts.AddPolicy("angularApp", pb =>
+    {
+        pb.WithOrigins("http://localhost:4200");
+        pb.AllowAnyHeader();
+        pb.AllowAnyMethod();
+        pb.AllowCredentials();
+    });
+}
+);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
+app.UseCors("angularApp");
 
 app.UseHttpsRedirection();
 

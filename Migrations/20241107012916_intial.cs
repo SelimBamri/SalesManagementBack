@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SalesManagementBack.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class intial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -209,6 +209,7 @@ namespace SalesManagementBack.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UnitPrice = table.Column<int>(type: "int", nullable: false),
                     NumberOfUnits = table.Column<int>(type: "int", nullable: false),
+                    IssueDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ClientFk = table.Column<int>(type: "int", nullable: false),
                     ProductFk = table.Column<int>(type: "int", nullable: false)
                 },
@@ -237,6 +238,7 @@ namespace SalesManagementBack.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UnitPrice = table.Column<int>(type: "int", nullable: false),
                     NumberOfUnits = table.Column<int>(type: "int", nullable: false),
+                    IssueDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     SupplierFk = table.Column<int>(type: "int", nullable: false),
                     ProductFk = table.Column<int>(type: "int", nullable: false)
                 },

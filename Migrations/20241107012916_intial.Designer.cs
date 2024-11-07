@@ -12,8 +12,8 @@ using SalesManagementBack.Data;
 namespace SalesManagementBack.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241015152146_initial")]
-    partial class initial
+    [Migration("20241107012916_intial")]
+    partial class intial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -186,6 +186,9 @@ namespace SalesManagementBack.Migrations
                     b.Property<int>("ClientFk")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("IssueDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("NumberOfUnits")
                         .HasColumnType("int");
 
@@ -211,6 +214,9 @@ namespace SalesManagementBack.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("IssueDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("NumberOfUnits")
                         .HasColumnType("int");
@@ -409,13 +415,13 @@ namespace SalesManagementBack.Migrations
             modelBuilder.Entity("SalesManagementBack.Entities.Invoice", b =>
                 {
                     b.HasOne("SalesManagementBack.Entities.Client", "Client")
-                        .WithMany()
+                        .WithMany("Invoices")
                         .HasForeignKey("ClientFk")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("SalesManagementBack.Entities.Product", "Product")
-                        .WithMany()
+                        .WithMany("Invoices")
                         .HasForeignKey("ProductFk")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -428,13 +434,13 @@ namespace SalesManagementBack.Migrations
             modelBuilder.Entity("SalesManagementBack.Entities.Order", b =>
                 {
                     b.HasOne("SalesManagementBack.Entities.Product", "Product")
-                        .WithMany()
+                        .WithMany("Orders")
                         .HasForeignKey("ProductFk")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("SalesManagementBack.Entities.Supplier", "Supplier")
-                        .WithMany()
+                        .WithMany("Orders")
                         .HasForeignKey("SupplierFk")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -442,6 +448,23 @@ namespace SalesManagementBack.Migrations
                     b.Navigation("Product");
 
                     b.Navigation("Supplier");
+                });
+
+            modelBuilder.Entity("SalesManagementBack.Entities.Client", b =>
+                {
+                    b.Navigation("Invoices");
+                });
+
+            modelBuilder.Entity("SalesManagementBack.Entities.Product", b =>
+                {
+                    b.Navigation("Invoices");
+
+                    b.Navigation("Orders");
+                });
+
+            modelBuilder.Entity("SalesManagementBack.Entities.Supplier", b =>
+                {
+                    b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618
         }

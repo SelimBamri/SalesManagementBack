@@ -10,13 +10,13 @@ using SalesManagementBack.Entities;
 
 namespace SalesManagementBack.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/invoices")]
     [ApiController]
-    public class InvoiveController : ControllerBase
+    public class InvoiceController : ControllerBase
     {
         private readonly AppDbContext _context;
         private readonly UserManager<User> _userManager;
-        public InvoiveController(AppDbContext context, UserManager<User> userManager)
+        public InvoiceController(AppDbContext context, UserManager<User> userManager)
         {
             this._context = context;
             this._userManager = userManager;

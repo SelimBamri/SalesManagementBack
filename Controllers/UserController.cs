@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using SalesManagementBack.Data;
 using SalesManagementBack.DTO.Requests;
 using SalesManagementBack.DTO.Responses;
 using SalesManagementBack.Entities;
@@ -17,9 +18,11 @@ namespace SalesManagementBack.Controllers
     public class UserController : ControllerBase
     {
         private readonly UserManager<User> _userManager;
+        private readonly AppDbContext _context;
         private readonly JwtHandler _jwtHandler;
-        public UserController(UserManager<User> userManager, JwtHandler jwtHandler)
+        public UserController(UserManager<User> userManager, JwtHandler jwtHandler, AppDbContext context)
         {
+            this._context = context;
             this._userManager = userManager;
             this._jwtHandler = jwtHandler;
         }
@@ -35,6 +38,7 @@ namespace SalesManagementBack.Controllers
                 FirstName = input.FirstName,
                 LastName = input.LastName,
                 Position = input.Position,
+                UserName = input.Email,
                 Email = input.Email,
             };
             if (input.ProfilePhoto != null)
@@ -97,6 +101,21 @@ namespace SalesManagementBack.Controllers
                 Email = user.Email,
                 Position = user.Position,
             };
+            return Ok(resp);
+        }
+
+        [HttpGet("all")]
+        [Authorize]
+        public async Task<IActionResult> GetUsers()
+        {
+            var resp = _context.Users.Select(user => new MyProfileResponse
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                ProfilePhoto = user.ProfilePhoto,
+                Email = user.Email,
+                Position = user.Position,
+            }).ToList(); 
             return Ok(resp);
         }
 

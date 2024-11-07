@@ -3,12 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\dto\\responses\\documentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:dto\\responses\\documentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\dto\\requests\\userforregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:dto\\requests\\userforregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\dto\\responses\\myprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:dto\\responses\\myprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\dto\\requests\\profileupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:dto\\requests\\profileupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\dto\\requests\\passwordeditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:dto\\requests\\passwordeditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\dto\\responses\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:dto\\responses\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\dto\\requests\\userforauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:dto\\requests\\userforauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\jwtfeatures\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:jwtfeatures\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\dto\\responses\\registrationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,38 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|c:\\users\\hp\\documents\\projets\\salesmanagementback\\migrations\\20241015152146_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B0BB1C-91CC-45DD-93BF-E603516534E9}|SalesManagementBack.csproj|solutionrelative:migrations\\20241015152146_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,32 +96,19 @@
         },
         {
           "DockedHeight": 24,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Invoice.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Invoice.cs",
               "RelativeDocumentMoniker": "Entities\\Invoice.cs",
               "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Invoice.cs",
               "RelativeToolTip": "Entities\\Invoice.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA4AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T14:10:13.313Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-15T15:14:53.136Z",
               "IsPinned": true
             },
             {
@@ -106,20 +117,188 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowCsAAAAjAAAA",
+              "DocumentIndex": 7,
+              "Title": "UserForRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\UserForRegistration.cs",
+              "RelativeDocumentMoniker": "DTO\\Requests\\UserForRegistration.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\UserForRegistration.cs",
+              "RelativeToolTip": "DTO\\Requests\\UserForRegistration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T15:28:54.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T15:24:51.161Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DocumentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Responses\\DocumentResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\Responses\\DocumentResponse.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Responses\\DocumentResponse.cs",
+              "RelativeToolTip": "DTO\\Responses\\DocumentResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:50:31.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAwwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:17:12.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Controllers\\ClientController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:09:15.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:00:31.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Supplier.cs",
+              "RelativeDocumentMoniker": "Entities\\Supplier.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Supplier.cs",
+              "RelativeToolTip": "Entities\\Supplier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:03:24.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:17:39.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAwwEsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:44:45.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyProfileResponse.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Responses\\MyProfileResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\Responses\\MyProfileResponse.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Responses\\MyProfileResponse.cs",
+              "RelativeToolTip": "DTO\\Responses\\MyProfileResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:58:35.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProfileUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\ProfileUpdateRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\Requests\\ProfileUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\ProfileUpdateRequest.cs",
+              "RelativeToolTip": "DTO\\Requests\\ProfileUpdateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:01:38.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PasswordEditRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\PasswordEditRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\Requests\\PasswordEditRequest.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\PasswordEditRequest.cs",
+              "RelativeToolTip": "DTO\\Requests\\PasswordEditRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:01:11.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthenticationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Responses\\AuthenticationResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\Responses\\AuthenticationResponse.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Responses\\AuthenticationResponse.cs",
+              "RelativeToolTip": "DTO\\Responses\\AuthenticationResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:40:17.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T10:08:31.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserForAuthentication.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\UserForAuthentication.cs",
+              "RelativeDocumentMoniker": "DTO\\Requests\\UserForAuthentication.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\UserForAuthentication.cs",
+              "RelativeToolTip": "DTO\\Requests\\UserForAuthentication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:39:39.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JwtHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\JwtFeatures\\JwtHandler.cs",
+              "RelativeDocumentMoniker": "JwtFeatures\\JwtHandler.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\JwtFeatures\\JwtHandler.cs",
+              "RelativeToolTip": "JwtFeatures\\JwtHandler.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwB0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:36:27.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "RegistrationResponse.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Responses\\RegistrationResponse.cs",
               "RelativeDocumentMoniker": "DTO\\Responses\\RegistrationResponse.cs",
@@ -131,67 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserForRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\UserForRegistration.cs",
-              "RelativeDocumentMoniker": "DTO\\Requests\\UserForRegistration.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\DTO\\Requests\\UserForRegistration.cs",
-              "RelativeToolTip": "DTO\\Requests\\UserForRegistration.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T15:24:51.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20241015152146_initial.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Migrations\\20241015152146_initial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241015152146_initial.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Migrations\\20241015152146_initial.cs",
-              "RelativeToolTip": "Migrations\\20241015152146_initial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T15:21:46.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Order.cs",
-              "RelativeToolTip": "Entities\\Order.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAmwAgAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:06:09.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Supplier.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Supplier.cs",
-              "RelativeDocumentMoniker": "Entities\\Supplier.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Supplier.cs",
-              "RelativeToolTip": "Entities\\Supplier.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:03:24.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Product.cs",
-              "RelativeToolTip": "Entities\\Product.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwA0AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:00:31.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Entities\\User.cs",
@@ -203,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -212,30 +331,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T13:15:31.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Client.cs",
-              "RelativeDocumentMoniker": "Entities\\Client.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Entities\\Client.cs",
-              "RelativeToolTip": "Entities\\Client.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:05:14.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\projets\\SalesManagementBack\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T13:17:12.301Z"
             }
           ]
         }

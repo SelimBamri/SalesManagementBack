@@ -81,7 +81,7 @@ namespace SalesManagementBack.Controllers
 
         [HttpGet]
         [Authorize]
-        public async Task<IActionResult> GetClients()
+        public async Task<IActionResult> GetProducts()
         {
             var products = await _context.Products
                 .Select(c => new ProductResponse
@@ -98,6 +98,30 @@ namespace SalesManagementBack.Controllers
                 })
                 .ToListAsync();
             return Ok(products);
+        }
+
+        [HttpGet]
+        [Authorize]
+        [Route("{id:int}")]
+        public async Task<IActionResult> GetProductById(int id)
+        {
+            Product? product = await _context.Products.FindAsync(id);
+            if (product == null)
+            {
+                return BadRequest();
+            }
+            return Ok(new ProductResponse
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Reference = product.Reference,
+                Description = product.Description,
+                NumberOfSoldUnits = product.Invoices.Sum(x => x.NumberOfUnits),
+                NumberOfBoughtUnits = product.Orders.Sum(x => x.NumberOfUnits),
+                TotalCost = product.Orders.Sum(x => x.NumberOfUnits * x.UnitPrice),
+                TotalProfit = product.Invoices.Sum(x => x.NumberOfUnits * x.UnitPrice),
+                Balance = product.Invoices.Sum(x => x.NumberOfUnits * x.UnitPrice) - product.Orders.Sum(x => x.NumberOfUnits * x.UnitPrice)
+            });
         }
     }
 }

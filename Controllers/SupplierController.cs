@@ -10,7 +10,7 @@ using SalesManagementBack.Entities;
 
 namespace SalesManagementBack.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/suppliers")]
     [ApiController]
     public class SupplierController : ControllerBase
     {
